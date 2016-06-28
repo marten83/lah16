@@ -1,0 +1,98 @@
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <se.martenolsson.lah15.classes.ObservableScrollView
+        android:id="@+id/scrollview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/cv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/viewCont"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <FrameLayout
+                android:id="@+id/imageHolder"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/thumbnail"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:background="#CCCCCC"
+                    android:adjustViewBounds="true"/>
+
+            </FrameLayout>
+
+            <TextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/imageHolder"
+                android:textSize="30sp"
+                android:fontFamily="sans-serif-condensed"
+                android:textStyle="bold"
+                android:padding="20dp"
+                android:textColor="#000000"/>
+
+            <TextView
+                android:id="@+id/body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title"
+                android:textSize="16sp"
+                android:fontFamily="sans-serif-condensed"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:paddingBottom="20dp"
+                android:textColor="#000000"
+                android:textColorLink="@color/theme_default_primary"
+                android:linksClickable="true"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    </se.martenolsson.lah15.classes.ObservableScrollView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/closeBtn"
+        android:visibility="visible"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_gravity="top|left"
+    android:background="@drawable/gradient_overlay_top">
+
+        <se.martenolsson.lah15.classes.IconTextView
+            android:id="@+id/playBtnText"
+            android:layout_width="match_parent"
+            android:gravity="left"
+            android:paddingStart="20dp"
+            android:paddingTop="20dp"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:layout_height="match_parent"
+            android:textColor="#ffffff"
+            android:text="&#xf1b6;"/>
+    </LinearLayout>
+
+</FrameLayout>

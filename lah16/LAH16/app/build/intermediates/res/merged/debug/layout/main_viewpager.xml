@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/totCont"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:theme="@style/BaseTheme"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:background="@drawable/gradient"
+        android:contentInsetLeft="0dp"
+        android:contentInsetStart="0dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
+        android:contentInsetRight="0dp"
+        android:contentInsetEnd="0dp"
+        app:contentInsetRight="0dp"
+        app:contentInsetEnd="0dp"
+        android:layout_height="55dp">
+
+        <TextView
+            android:visibility="gone"
+            android:id="@+id/topTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="16dp"
+            android:textColor="#FFFFFF"
+            android:text="ARTISTER"/>
+
+        <LinearLayout
+            android:id="@+id/buttonCont"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/ao"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="16dp"
+                android:textColor="#FFFFFF"
+                android:text="A-Ö"/>
+
+            <TextView
+                android:id="@+id/cat"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="16dp"
+                android:textColor="#FFFFFF"
+                android:text="KATEGORI"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/playBtn"
+            android:visibility="visible"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginRight="0dip"
+            android:layout_marginBottom="10dip"
+            android:layout_gravity="right"
+            android:onClick="onPlay">
+
+            <se.martenolsson.lah15.classes.IconTextView
+                android:id="@+id/playBtnText"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:text="&#xf1f9;"/>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <se.martenolsson.lah15.customViewPager.CustomViewPager
+            android:id="@+id/pager"
+            android:layout_height="match_parent"
+            android:layout_width="match_parent"
+            android:paddingBottom="55dp"
+            android:layout_weight="1">
+        </se.martenolsson.lah15.customViewPager.CustomViewPager>
+
+        <LinearLayout
+            android:id="@+id/tabBoarder"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/theme_accent"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="54dp"
+            android:orientation="vertical"/>
+
+        <se.martenolsson.lah15.customViewPager.SlidingTabLayout
+            android:id="@+id/tabs"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_gravity="bottom"
+            android:elevation="2dp"
+            android:background="@color/theme_gray"/>
+
+    </FrameLayout>
+
+</LinearLayout>

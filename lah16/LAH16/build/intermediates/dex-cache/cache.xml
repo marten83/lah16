@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/jp.wasabeef/glide-transformations/1.0.8/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="84e9680a4d06742d58e272b7e24da0dd2362e3d4">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/jp.wasabeef-glide-transformations-1.0.8_ad74105fc5bc7020a692b60a93c385de60839101/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b5e7892fb0708e792e0e933c4c0a0ca0ac7831fb">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-8.4.0_e48bc06c2ae053879f07439239e7b94b5fc73bf8/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="551e78f21acf69ebfb489c0e79647824c838013e">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-8.4.0_50c01d21e7244c2d827f8d19bb0fa8fdeae9dbf2/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.daimajia.swipelayout/library/1.2.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e84b30031d4bab89a2b5c45af4eb9213828524dd">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.daimajia.swipelayout-library-1.2.0_05ec32fa4982fe3e07b2b9b5ebaebca28e4e4f05/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.github.florent37/glidepalette/1.0.6/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="00d3b960d228b6e5dfc9bee4ae85b522def2b34f">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.github.florent37-glidepalette-1.0.6_23ec7f34e10fb233a39100b86dc693b78202ce84/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c54246475c1bb64ac6857d1320364bfbfeda2c46">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-8.4.0_f17e6d688169ec67f53f727b144950632908d7c6/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/me.imid.swipebacklayout.lib/library/1.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="6d0958dbac8e7be76690b8e85d91698dfadbd81e">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/me.imid.swipebacklayout.lib-library-1.0.0_300b08bdc095dd948df7154c06307fb42f612de0/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-23.0.0_7638c35e0a687a31d61856d3332789bdce27364d/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="0194a7409c40de94fb539d4ad9928ec5d47afeb7">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-8.4.0_6c9eb3aa33e750773f7480c81d41cc4856d21971/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0-beta1/support-annotations-24.0.0-beta1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="04705c19cdec60364bc04e2e928c274da1ba301b">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0-beta1_047a0d7b9bf991d03042a1689e169a76c573b47c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/jp.co.cyberagent.android.gpuimage/gpuimage-library/1.2.3/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a93454051575c128e7819b068748c7a9b95c6857">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/jp.co.cyberagent.android.gpuimage-gpuimage-library-1.2.3_8bcb49f02e0eb11dcb76bab2b1144e7a71de2795/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.getkeepsafe.relinker/relinker/1.2.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="264f0bc4c0680cfe7a60fea1f12a43f1ab48e7c8">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.getkeepsafe.relinker-relinker-1.2.1_0e3bebf7b12f1bd99c1137287db6cf83818599cf/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/palette-v7/23.1.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a978650837318cf056bf3383ff02fe7a3b891f20">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-palette-v7-23.1.1_b53be26f9b6b0b9c822b994f21e64b87a704356a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="04de44f90606c77f3b28cf44861f306290505aac">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-8.4.0_f2fa2eaf9868f3de3d183e83548def46e32a00f6/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.0.0-beta1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="471ce760dbf7b784fd74892b5113bca4e0d8def7">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.0.0-beta1_d1218edab07e4ec47cac01030efd4a6636babcce/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="3a364cc6b698d1b3b2d284f64618daaa7fe77ddf">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-8.4.0_f2468190cb06b641e7cf928e288df71d6bbc792a/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f2df436a8f02ce7e4d7d209671fc45f97c470f0e">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-8.4.0_5054e09a09520aa7a51107508e5f92a70452646e/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="c2c594cace5d83a3227b2b6e658ecbfd586d3ed9">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-23.4.0_3854346cf04b26d1334d4a2175f2969430a43d6f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="9fe026fb4c7fce21bc5142f6e1bdf844f28061ac">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-8.4.0_aaf9964e426c91784731e20df64beabb7f2e05c7/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="dfecc4d835cdabcdecf7e95f0d20a3ef1e9d8ef4">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-8.4.0_5568b519d9dbc0030cb5fb0e44c62bbb724239b6/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="8e673cdfadd8f2d98fdb2fda2285c30f6e449782">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-8.4.0_93443aa31d0ed4aed9fe48ce26ec9a3c1bda6680/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0-beta1/jars/libs/internal_impl-24.0.0-beta1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="23d564c059873f398dc5d967f56791a66472ce76">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0-beta1_5a22eae0e21440bdb7515d8c6bbf392c0b5cda39/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="9cad249cf62751a323d9af568caf12284b7d6062">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-8.4.0_0f79dc0fb00127806ccb4202c841fe10bea1f997/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-multidex-1.0.1_02bee3d9fbf5a241ff9b3da55da6ba020728644c/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="e167a34eaca0b31704212f43f9576ea84e05046f">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-8.4.0_56b381f70948cee6693d5a8ac47850dd77c398e3/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b82b8e847173c28efffcd291b2a0b1ae9ad17fa4">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-8.4.0_3b2b5cce10f1f2e9d706e5bca29e80f3fb912b51/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="2d7fe76982677315c4dc4edfb459c8ca718a9d4c">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-8.4.0_5b5f6bc57fa975b5ce65ab330b58382efddbe7e9/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="08d34b2d135c1cc96ab506fd8bf6916d1e2f391a">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-8.4.0_298680315e2d06d3822f6c222ca24c9e18ac73eb/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/.gradle/caches/modules-2/files-2.1/io.realm/realm-annotations/1.0.0/a3f198fe36d4071e5832d7aad8ca19798e87a64c/realm-annotations-1.0.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a3f198fe36d4071e5832d7aad8ca19798e87a64c">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/realm-annotations-1.0.0_14d74027d140be7c7d4596030623c47f43ba505b/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="12e3f9ea2568b81989096f154b09af5d47694c6b">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_9ef5c0525f3b649f6a106f42b94df05c82867f64/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.6.1/86b122e640af09b0723e1fa44083c354ba6d9089/glide-3.6.1.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="86b122e640af09b0723e1fa44083c354ba6d9089">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.6.1_4400899b78cd60fcb591a414b39b6a9616580e76/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-measurement/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="613298b7aa012f121ce542881c0a599ebd8078f2">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-measurement-8.4.0_42bbd70966cc77f9e7dfe055600f04e0a62b3248/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="b36f30ac5ee5d5214f4b1e2ac49f11889d58e71a">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-8.4.0_f1de668e8df75e78850228c833be1b5b87118cae/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1c9f35e952b212c843f7bd2c7eec8e82ad95602e">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-8.4.0_57f468c94e7a496f8fb2ffc89f10f3cb5e22cd23/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0-beta1/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="f81eecb8d5e9e548f75f277830a94a9b37fbb987">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0-beta1_242cc5086f0c72de62f75740f3a65e1a5b6f23fa/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/io.realm/realm-android-library/1.0.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="41eaf91db90c8a58a03786acbbbe83c710491f08">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/io.realm-realm-android-library-1.0.0_fe03bc1e4890023d55f942ff7b86140bb71b6348/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="fef2b3e4b6b1b0e5fe7b69fa137a5fa55a3182ab">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-8.4.0_7ff91f3fc04dc3ae76b95c534dfaa8891cd9a0f6/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="1a78298e7724d5440d210bcb946b3493250d354d">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-8.4.0_21ba7deaeb327afa7122196daa0f894fbc7e709f/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="5326d9a850d491714fef8cbfaa9ea3416f0bf0d2">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-23.4.0_6f75542bc6359d761c8ff0f05cae4058e50df5aa/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.0_ec20ee838e443b27d3f464ffbf09fdc07b6422f6/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a8412b654dab86d57bf90683367488211c8a81f1">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-8.4.0_68b76029befd0f884a72800ea8f4debe9ee24d12/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="65d086ee9daaf87b5af62ad24471edafa433354c">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-8.4.0_4e94dbc925b577fecf7b9151af0d0eca9d8e4438/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.onesignal/OneSignal/2.4.3/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="18031b17505685ce7d249da74033d76efcc066d7">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.onesignal-OneSignal-2.4.3_a20d426d9c951a627bcba5a2c6b9926bdcab8152/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="38630f9aaa14f4c3ac9df1568b83a9e21974a7fe">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_9a4775ec05fef009e49e4ded28b9c762d550f7bf/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="548f06de403a9409f00554b3ee12a9fdea0e236c">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-23.4.0_56d449636853c58dc56961e45f903fa77c708392/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Library/Android/sdk/build-tools/23.0.3/renderscript/lib/renderscript-v8.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="5b79706a834fa62fc97734d9e799e98b63536ff8">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/renderscript-v8_4ffaf0c5cde21cfdf5ea8a97135b52f767811735/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="de4db3785756bfb0915a9f59a9b3f2fea7407be4">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-23.4.0_227cc26b55fa861493899492b093f3dceb710c11/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.mcxiaoke.volley/library/1.0.6/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="a89762bbbd7f29b4b555f12961653b11d01c8c79">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.mcxiaoke.volley-library-1.0.6_ce45d30de94626507b93cbbb9deb350b2a465f81/classes.dex" />
+    </item>
+    <item
+        jar="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/8.4.0/jars/classes.jar"
+        jumboMode="true"
+        revision="23.0.3"
+        sha1="966e5771a5a2ebfb31bf00d7cd6cd2546d245517">
+        <dex dex="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-8.4.0_0bdaeb8ed931e23d3982b1f1c6316c4098335b03/classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:textSize="12dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/input_border"
+        android:textColor="#000000"
+        android:hint="Sök efter artist eller genre.">
+    </EditText>
+
+    <LinearLayout
+        android:id="@+id/sok"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginRight="15dip"
+        android:layout_marginTop="15dip"
+        android:layout_gravity="top|end">
+
+        <se.martenolsson.lah15.classes.IconTextView
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textSize="19sp"
+            android:layout_height="match_parent"
+            android:textColor="#c2c2c2"
+            android:text="&#xf1cc;"/>
+
+    </LinearLayout>
+
+</FrameLayout>
