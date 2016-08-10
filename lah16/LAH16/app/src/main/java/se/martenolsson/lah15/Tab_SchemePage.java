@@ -54,9 +54,6 @@ public class Tab_SchemePage extends Fragment {
 
         stageSort =  ((ApplicationController) mContext.getApplicationContext()).currentStageSort;
 
-        Log.i("stageSort", stageSort);
-
-
         dayScheme = new JsonParser().parse(scheme).getAsJsonArray();
         Log.i("dayScheme", String.valueOf(dayScheme));
 
@@ -99,8 +96,12 @@ public class Tab_SchemePage extends Fragment {
 
         if(stageSort.equals("stage")){
             sortStage();
+            MainViewPager.time.setAlpha(0.5f);
+            MainViewPager.stage.setAlpha(1f);
         }else{
             sortTime();
+            MainViewPager.time.setAlpha(1f);
+            MainViewPager.stage.setAlpha(0.5f);
         }
 
 

@@ -145,7 +145,6 @@ public class MainViewPager extends AppCompatActivity {
             }
         });
 
-        time.setAlpha(0.5f);
         time.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -254,7 +253,10 @@ public class MainViewPager extends AppCompatActivity {
         }else{
             playBtn.setVisibility(View.GONE);
         }
-        Tab_Scheme.updateSchemePages();
+
+        if(pager.getCurrentItem() == 3) {
+            Tab_Scheme.updateSchemePages();
+        }
     }
 
     public void thisFinish(){
