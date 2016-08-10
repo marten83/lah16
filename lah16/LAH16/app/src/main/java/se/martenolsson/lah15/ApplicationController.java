@@ -19,6 +19,7 @@ public class ApplicationController extends Application {
     public MediaPlayer myMediaPlayer;
     public String currentSong = null;
     public String currentArtist = null;
+    public String currentStageSort = "stage";
 
 	@Override
 	public void onCreate() {

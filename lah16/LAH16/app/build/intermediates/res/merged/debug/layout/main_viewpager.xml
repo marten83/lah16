@@ -24,6 +24,27 @@
         app:contentInsetEnd="0dp"
         android:layout_height="55dp">
 
+        <LinearLayout
+            android:id="@+id/playListBtn"
+            android:visibility="visible"
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginRight="0dip"
+            android:layout_marginBottom="10dip"
+            android:layout_gravity="left">
+
+            <se.martenolsson.lah15.classes.IconTextView
+                android:id="@+id/playListBtnText"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textSize="18sp"
+                android:layout_height="match_parent"
+                android:textColor="#ffffff"
+                android:text="@string/iconPlaylist"/>
+
+        </LinearLayout>
+
         <TextView
             android:visibility="gone"
             android:id="@+id/topTitle"
@@ -39,6 +60,7 @@
             android:id="@+id/buttonCont"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_marginEnd="50dp"
             android:gravity="center">
 
             <TextView
@@ -58,6 +80,34 @@
                 android:textSize="16dp"
                 android:textColor="#FFFFFF"
                 android:text="KATEGORI"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/buttonScheme"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="50dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/stage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="16dp"
+                android:textColor="#FFFFFF"
+                android:text="SCEN"/>
+
+            <TextView
+                android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textSize="16dp"
+                android:textColor="#FFFFFF"
+                android:text="TID"/>
 
         </LinearLayout>
 

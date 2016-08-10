@@ -298,12 +298,13 @@ public class SlidingTabLayout extends HorizontalScrollView {
         public void onClick(View v) {
             for (int i = 0; i < mTabStrip.getChildCount(); i++) {
                 if (v == mTabStrip.getChildAt(i)) {
-                    if(i == 3){
+                    /*if(i == 3){
                         Intent intent = new Intent(mContext, playListView.class);
                         mContext.startActivity(intent);
                     }else {
                         mViewPager.setCurrentItem(i, false);  //Remove false to animate.
-                    }
+                    }*/
+                    mViewPager.setCurrentItem(i, false);  //Remove false to animate.
                     return;
 
                 }

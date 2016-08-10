@@ -87,6 +87,17 @@
 
             </LinearLayout>
 
+            <TextView
+                android:id="@+id/privacy_policy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/theme_default_primary"
+                android:layout_margin="20dp"
+                android:lineSpacingExtra="2dp"
+                android:layout_gravity="center"
+                android:textSize="12sp"
+                android:text="Privacy Policy"/>
+
         </LinearLayout>
 
     </ScrollView>

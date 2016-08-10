@@ -404,6 +404,8 @@
     <string name="iconMyArtist"></string>
     <string name="iconNews"></string>
     <string name="iconPlaylist"></string>
+    <string name="iconSchema"></string>
+    <string name="iconStage"></string>
     <string name="menu_settings">Settings</string>
     <string name="mr_media_route_button_content_description">Cast</string>
     <string name="mr_media_route_chooser_searching">Searching for devices\u2026</string>

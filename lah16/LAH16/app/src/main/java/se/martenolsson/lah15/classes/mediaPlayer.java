@@ -2,6 +2,7 @@ package se.martenolsson.lah15.classes;
 
 import android.content.Context;
 import android.media.MediaPlayer;
+import android.util.Log;
 import android.view.View;
 import android.widget.LinearLayout;
 import android.widget.Toast;
@@ -28,6 +29,7 @@ public class mediaPlayer {
     LinearLayout playBtn;
     String artist;
     Context mContext;
+    Boolean isError = false;
 
     public mediaPlayer(Context mContext, String artist, String mp3, final Boolean fromPlayBtn, final LinearLayout vanta, final LinearLayout stopBtn, final LinearLayout playBtn, final Boolean fromSingle) {
         myMediaPlayer = ((ApplicationController) mContext.getApplicationContext()).myMediaPlayer;
@@ -35,7 +37,8 @@ public class mediaPlayer {
         this.mContext = mContext;
         this.mp3 = mp3;
         this.artist = artist;
-        mediaUrl = mp3.replace(" ","%20").replace("¦", "%C2%A6");
+        //mediaUrl = mp3.replace(" ","%20").replace("¦", "%C2%A6");
+        mediaUrl = mp3;
 
         this.fromPlayBtn = fromPlayBtn;
         this.fromSingle = fromSingle;
@@ -90,7 +93,6 @@ public class mediaPlayer {
         myMediaPlayer.setOnPreparedListener(new MediaPlayer.OnPreparedListener() {
             @Override
             public void onPrepared(MediaPlayer player) {
-
                 if(fromPlayBtn){
                     playList = tinydb.getList("playList");
 
@@ -107,7 +109,6 @@ public class mediaPlayer {
 
 
                     playList.add(0, artist + ";;" + mp3 + ";;" + "fromPlay");
-
                     tinydb.putList("playList", playList);
                 }
 
@@ -140,7 +141,7 @@ public class mediaPlayer {
         myMediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
             @Override
             public void onCompletion(MediaPlayer mp) {
-                if (mp.getCurrentPosition() != 0) {
+                if (mp.getCurrentPosition() != 0 || isError) {
                     playList = tinydb.getList("playList");
                     if (playList.size() > 0) {
                         int index = 0;
@@ -155,12 +156,14 @@ public class mediaPlayer {
                             artist = listitem[0];
                             mp3 = listitem[1];
 
-                            mediaUrl = mp3.replace(" ", "%20").replace("¦", "%C2%A6");
+                            //mediaUrl = mp3.replace(" ", "%20").replace("¦", "%C2%A6");
+                            mediaUrl = mp3;
                             mp.stop();
                             mp.reset();
                             playSong();
                         }
                     }
+                    isError = false;
                 }
             }
         });
@@ -173,7 +176,13 @@ public class mediaPlayer {
                         playBtn.setVisibility(View.GONE);
                         vanta.setVisibility(View.GONE);
                     }
-                    Toast.makeText(mContext, "Kan inte spela låt", Toast.LENGTH_LONG).show();
+                    Toast.makeText(mContext, "Kan inte spela låten", Toast.LENGTH_LONG).show();
+
+                    if(!fromSingle || !fromPlayBtn) {
+                        mediaUrl = "http://martenolsson.se/lah15/errorimg/error.mp3";
+                        isError = true;
+                        playSong();
+                    }
                 }
                 return false;
             }

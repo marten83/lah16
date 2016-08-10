@@ -30,13 +30,13 @@ import io.realm.RealmConfiguration;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import se.martenolsson.lah15.classes.CleanTextString;
 import se.martenolsson.lah15.classes.TinyDB;
 import se.martenolsson.lah15.db.RealmArticle;
 
 import java.io.File;
 import java.io.UnsupportedEncodingException;
-import java.net.URLDecoder;
-import java.net.URLEncoder;
+import java.net.*;
 import java.util.*;
 
 /**
@@ -52,6 +52,7 @@ public class Tab_Start extends Fragment {
     private static SwipeRefreshLayout mSwipeRefreshLayout;
     LinearLayout sok;
     float density;
+    static CleanTextString returnCleanString;
 
     static Realm realm;
     RequestQueue queue;
@@ -88,6 +89,7 @@ public class Tab_Start extends Fragment {
         mContext = container.getContext();
         queue = Volley.newRequestQueue(mContext);
         density  = getResources().getDisplayMetrics().density;
+        returnCleanString = new CleanTextString();
 
         //Debugg in chrome
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
@@ -122,7 +124,7 @@ public class Tab_Start extends Fragment {
         }
         getJson("http://lah16.bastardcreative.se/api/artists");
 
-        File cacheDir = mContext.getCacheDir();
+        /*File cacheDir = mContext.getCacheDir();
         File tab1 = new File(cacheDir, "tab1.html");
         File tab2 = new File(cacheDir, "tab2.html");
         File tab3 = new File(cacheDir, "tab3.html");
@@ -138,15 +140,15 @@ public class Tab_Start extends Fragment {
         }
         if(!tab4.exists()){
             new AlarmReceiver.saveFile(mContext, "tab4").execute("http://martenolsson.se/lah15/tab4.php?3");
-        }
+        }*/
 
 		/*BackgroundTask*/
-        Intent alarmIntent = new Intent(mContext, AlarmReceiver.class);
+        /*Intent alarmIntent = new Intent(mContext, AlarmReceiver.class);
         PendingIntent pendingIntent = PendingIntent.getBroadcast(mContext, 0, alarmIntent, 0);
         AlarmManager manager = (AlarmManager) mContext.getSystemService(Context.ALARM_SERVICE);
-        int interval = 1800000;
+        int interval = 1800000;*/
         //int interval = 30000; //30sek
-        manager.setRepeating(AlarmManager.RTC_WAKEUP, System.currentTimeMillis(), interval, pendingIntent);
+        //manager.setRepeating(AlarmManager.RTC_WAKEUP, System.currentTimeMillis(), interval, pendingIntent);
 		/*end BackgroundTask*/
 
         //LayoutInflater inflater = getLayoutInflater();
@@ -209,15 +211,11 @@ public class Tab_Start extends Fragment {
                     String musik = c.getString(TAG_MUSIK);
                     String place = c.getString(TAG_PLACE);
                     String text = c.getString(TAG_TEXT);
-                    String mp3Str = c.getString(TAG_MP3).replace("https","http");
-                    String mp3 = mp3Str.replace(" ","%20")
-                            .replace("å","%C3%A5")
-                            .replace("ä","%C3%A4")
-                            .replace("ö","%C3%B6")
-                            .replace("Å","%C3%85")
-                            .replace("Ä","%C3%84")
-                            .replace("Ö","%C3%96");
-                    Log.e("be2",mp3);
+                    //String mp3Str = c.getString(TAG_MP3).replace("https","http");
+                    String mp3 = "http://martenolsson.se/lah16/songs/" + mId + ".mp3";
+                    //String mp3 = returnCleanString.returnCleanTextString(mp3Str);
+
+                    Log.e("mp3", mp3);
 
                     if (c.has(TAG_IMAGE)) {
                         if (!c.getString(TAG_IMAGE).equals("")) {

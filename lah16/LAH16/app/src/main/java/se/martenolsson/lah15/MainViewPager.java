@@ -1,6 +1,7 @@
 package se.martenolsson.lah15;
 
 import android.content.Context;
+import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Build;
 import android.os.Bundle;
@@ -28,7 +29,7 @@ public class MainViewPager extends AppCompatActivity {
     static se.martenolsson.lah15.customViewPager.ViewPagerAdapter adapter;
     static SlidingTabLayout tabs;
     static LinearLayout tabBoarder;
-    CharSequence Titles[]={"Artister","Mina artister","Nyheter","Låtkö","Mer"};
+    CharSequence Titles[]={"Artister","Mina artister","Nyheter","Spelschema","Mer"};
     //static int[] color;
     String[] Icons;
     int Numboftabs = 5;
@@ -36,16 +37,20 @@ public class MainViewPager extends AppCompatActivity {
     static Context baseContext;
     static Window window;
     static Context mContext;
+    LinearLayout buttonScheme;
     LinearLayout buttonCont;
     TextView topTitle;
     static ApplicationController appController;
 
     static TextView ao;
     static TextView cat;
+    static TextView stage;
+    static TextView time;
 
     MediaPlayer myMediaPlayer;
     static LinearLayout playBtn;
     static TextView playBtnText;
+    LinearLayout playListBtn;
 
     //Handle backbtn
     @Override
@@ -75,6 +80,7 @@ public class MainViewPager extends AppCompatActivity {
         appController = (ApplicationController) this.getApplication();
 
         toolbar = (Toolbar) findViewById(R.id.toolbar);
+        buttonScheme = (LinearLayout) findViewById(R.id.buttonScheme);
         buttonCont = (LinearLayout) findViewById(R.id.buttonCont);
         topTitle = (TextView) findViewById(R.id.topTitle);
         topTitle.setTypeface(((ApplicationController) mContext.getApplicationContext()).geoSans);
@@ -94,6 +100,16 @@ public class MainViewPager extends AppCompatActivity {
             }
         });
         playBtnText = (TextView) findViewById(R.id.playBtnText);
+
+
+        playListBtn = (LinearLayout) findViewById(R.id.playListBtn);
+        playListBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(mContext, playListView.class);
+                startActivity(intent);
+            }
+        });
 
 
         ao = (TextView) findViewById(R.id.ao);
@@ -118,6 +134,29 @@ public class MainViewPager extends AppCompatActivity {
         ao.setTypeface(((ApplicationController) mContext.getApplicationContext()).geoSans);
         cat.setTypeface(((ApplicationController) mContext.getApplicationContext()).geoSans);
 
+        stage = (TextView) findViewById(R.id.stage);
+        time = (TextView) findViewById(R.id.time);
+        stage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Tab_Scheme.sortStage();
+                stage.setAlpha(1f);
+                time.setAlpha(0.5f);
+            }
+        });
+
+        time.setAlpha(0.5f);
+        time.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Tab_Scheme.sortTime();
+                stage.setAlpha(0.5f);
+                time.setAlpha(1f);
+            }
+        });
+        stage.setTypeface(((ApplicationController) mContext.getApplicationContext()).geoSans);
+        time.setTypeface(((ApplicationController) mContext.getApplicationContext()).geoSans);
+
 
 
         //Debugg in chrome
@@ -125,7 +164,7 @@ public class MainViewPager extends AppCompatActivity {
             WebView.setWebContentsDebuggingEnabled(true);
         }
 
-        Icons= new String[] {getString(R.string.iconArtists), getString(R.string.iconMyArtist), getString(R.string.iconNews), getString(R.string.iconPlaylist), getString(R.string.iconMore)};
+        Icons= new String[] {getString(R.string.iconArtists), getString(R.string.iconMyArtist), getString(R.string.iconNews), getString(R.string.iconSchema), getString(R.string.iconMore)};
 
 
         window = getWindow();
@@ -146,13 +185,20 @@ public class MainViewPager extends AppCompatActivity {
             public void onPageSelected(int position) {
                 if(position == 0){
                     buttonCont.setVisibility(View.VISIBLE);
+                    buttonScheme.setVisibility(View.GONE);
                     topTitle.setVisibility(View.GONE);
                     toolbar.setVisibility(View.VISIBLE);
-                }else if(position == 4){
+                }else if(position == 3){
+                    buttonCont.setVisibility(View.GONE);
+                    buttonScheme.setVisibility(View.VISIBLE);
+                    topTitle.setVisibility(View.GONE);
+                    toolbar.setVisibility(View.VISIBLE);
+                } else if(position == 4){
                     toolbar.setVisibility(View.GONE);
                 }
                 else{
                     buttonCont.setVisibility(View.GONE);
+                    buttonScheme.setVisibility(View.GONE);
                     topTitle.setVisibility(View.VISIBLE);
                     toolbar.setVisibility(View.VISIBLE);
                 }
@@ -208,6 +254,7 @@ public class MainViewPager extends AppCompatActivity {
         }else{
             playBtn.setVisibility(View.GONE);
         }
+        Tab_Scheme.updateSchemePages();
     }
 
     public void thisFinish(){

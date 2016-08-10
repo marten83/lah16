@@ -286,7 +286,8 @@ public class ListViewAdapter extends BaseAdapter {
         holder.musik.setText(worldpopulationlist.get(position).getMusik().toUpperCase());
         Glide.with(mContext)
                 .load(worldpopulationlist.get(position).getImage())
-                .bitmapTransform(new CropCircleTransformation(Glide.get(mContext).getBitmapPool()))
+                //.bitmapTransform(new CropCircleTransformation(Glide.get(mContext).getBitmapPool()))
+                .asBitmap()
                 .into(holder.image);
 
 

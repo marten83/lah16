@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png",
-        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_icon_dark_pressed.9.png",
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_google_signin_btn_icon_dark_pressed.9.png"
+    },
+    {
+        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_cab_background_top_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_scrubber_control_to_pressed_mtrl_005.png",
@@ -40,12 +40,12 @@
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_015.png"
     },
     {
-        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png",
-        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_media_route_disabled_mono_dark.png",
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-mdpi/ic_media_route_disabled_mono_dark.png"
+    },
+    {
+        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png",
+        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_list_divider_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_plus_signin_btn_icon_dark_normal.9.png",
@@ -76,12 +76,12 @@
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_ic_menu_cut_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/places_ic_clear.png",
-        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/drawable-mdpi/places_ic_clear.png"
-    },
-    {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_action_search.png",
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/res/drawable-mdpi/ic_action_search.png"
+    },
+    {
+        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/places_ic_clear.png",
+        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/drawable-mdpi/places_ic_clear.png"
     },
     {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_longpressed_holo.9.png",
@@ -112,20 +112,20 @@
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_plus_signin_btn_icon_light_disabled.9.png"
     },
     {
-        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
-        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_cast_on_1_light.png",
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-mdpi/ic_cast_on_1_light.png"
     },
     {
-        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_pause_dark.png",
-        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-mdpi/ic_pause_dark.png"
+        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_tab_indicator_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/pin.png",
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/res/drawable-mdpi/pin.png"
+    },
+    {
+        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_pause_dark.png",
+        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-mdpi/ic_pause_dark.png"
     },
     {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_plus_signin_btn_text_dark_focused.9.png",
@@ -140,24 +140,24 @@
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_btn_rating_star_on_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_plus_signin_btn_icon_dark_pressed.9.png",
-        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_plus_signin_btn_icon_dark_pressed.9.png"
-    },
-    {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_plusone_tall_off_client.png",
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.4.0/res/drawable-mdpi/ic_plusone_tall_off_client.png"
+    },
+    {
+        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_plus_signin_btn_icon_dark_pressed.9.png",
+        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_plus_signin_btn_icon_dark_pressed.9.png"
     },
     {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/places_ic_search.png",
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/drawable-mdpi/places_ic_search.png"
     },
     {
-        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_plusone_medium_off_client.png",
-        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.4.0/res/drawable-mdpi/ic_plusone_medium_off_client.png"
-    },
-    {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_text_dark_disabled.9.png",
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_google_signin_btn_text_dark_disabled.9.png"
+    },
+    {
+        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_plusone_medium_off_client.png",
+        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.4.0/res/drawable-mdpi/ic_plusone_medium_off_client.png"
     },
     {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_icon_light_normal.9.png",
@@ -192,12 +192,12 @@
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_ic_menu_selectall_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/cast_ic_notification_2.png",
-        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.4.0/res/drawable-mdpi/cast_ic_notification_2.png"
-    },
-    {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_plus_signin_btn_text_dark_normal.9.png",
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_plus_signin_btn_text_dark_normal.9.png"
+    },
+    {
+        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/cast_ic_notification_2.png",
+        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.4.0/res/drawable-mdpi/cast_ic_notification_2.png"
     },
     {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png",
@@ -208,16 +208,16 @@
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-mdpi/ic_cast_off_light.png"
     },
     {
-        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/cast_ic_notification_1.png",
-        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.4.0/res/drawable-mdpi/cast_ic_notification_1.png"
+        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_go_search_api_mtrl_alpha.png",
+        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_ic_go_search_api_mtrl_alpha.png"
     },
     {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_cast_disabled_light.png",
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-mdpi/ic_cast_disabled_light.png"
     },
     {
-        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_go_search_api_mtrl_alpha.png",
-        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_ic_go_search_api_mtrl_alpha.png"
+        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/cast_ic_notification_1.png",
+        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.4.0/res/drawable-mdpi/cast_ic_notification_1.png"
     },
     {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/info.png",
@@ -228,12 +228,12 @@
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_ic_menu_paste_mtrl_am_alpha.png"
     },
     {
-        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_plus_signin_btn_icon_light_pressed.9.png",
-        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_plus_signin_btn_icon_light_pressed.9.png"
-    },
-    {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/cast_ic_notification_0.png",
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/8.4.0/res/drawable-mdpi/cast_ic_notification_0.png"
+    },
+    {
+        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_plus_signin_btn_icon_light_pressed.9.png",
+        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_plus_signin_btn_icon_light_pressed.9.png"
     },
     {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/cast_ic_notification_on.png",
@@ -244,24 +244,24 @@
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_ic_star_black_36dp.png"
     },
     {
-        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png",
-        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png"
-    },
-    {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_media_route_on_2_mono_dark.png",
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-mdpi/ic_media_route_on_2_mono_dark.png"
+    },
+    {
+        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png",
+        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_list_pressed_holo_light.9.png"
     },
     {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_plus_signin_btn_text_light_focused.9.png",
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_plus_signin_btn_text_light_focused.9.png"
     },
     {
-        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png",
-        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_full_open_on_phone.png",
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_full_open_on_phone.png"
+    },
+    {
+        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_media_pause.png",
@@ -280,32 +280,32 @@
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_btn_rating_star_off_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/mapinfobg.png",
-        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/res/drawable-mdpi/mapinfobg.png"
-    },
-    {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/stop.png",
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/res/drawable-mdpi/stop.png"
     },
     {
-        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_text_dark_pressed.9.png",
-        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_google_signin_btn_text_dark_pressed.9.png"
-    },
-    {
-        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_plusone_small_off_client.png",
-        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.4.0/res/drawable-mdpi/ic_plusone_small_off_client.png"
+        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/mapinfobg.png",
+        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/res/drawable-mdpi/mapinfobg.png"
     },
     {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_cast_light.png",
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-mdpi/ic_cast_light.png"
     },
     {
-        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_setting_light.png",
-        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-mdpi/ic_setting_light.png"
+        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_plusone_small_off_client.png",
+        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/8.4.0/res/drawable-mdpi/ic_plusone_small_off_client.png"
+    },
+    {
+        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_text_dark_pressed.9.png",
+        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_google_signin_btn_text_dark_pressed.9.png"
     },
     {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_icon_dark_normal.9.png",
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_google_signin_btn_icon_dark_normal.9.png"
+    },
+    {
+        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_setting_light.png",
+        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-mdpi/ic_setting_light.png"
     },
     {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_commit_search_api_mtrl_alpha.png",
@@ -320,20 +320,20 @@
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png"
     },
     {
-        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_media_route_on_1_mono_dark.png",
-        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-mdpi/ic_media_route_on_1_mono_dark.png"
-    },
-    {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_icon_light_disabled.9.png",
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_google_signin_btn_icon_light_disabled.9.png"
     },
     {
-        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png",
-        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
+        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_media_route_on_1_mono_dark.png",
+        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-mdpi/ic_media_route_on_1_mono_dark.png"
     },
     {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_text_light_disabled.9.png",
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_google_signin_btn_text_light_disabled.9.png"
+    },
+    {
+        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png",
@@ -352,24 +352,24 @@
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_ic_clear_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_star_half_black_16dp.png",
-        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_ic_star_half_black_16dp.png"
-    },
-    {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/imgbg.jpg",
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/res/drawable-mdpi/imgbg.jpg"
+    },
+    {
+        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_star_half_black_16dp.png",
+        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_ic_star_half_black_16dp.png"
     },
     {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/powered_by_google_dark.png",
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/drawable-mdpi/powered_by_google_dark.png"
     },
     {
-        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/heart.png",
-        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/res/drawable-mdpi/heart.png"
-    },
-    {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_plus_signin_btn_text_light_pressed.9.png",
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_plus_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/heart.png",
+        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/res/drawable-mdpi/heart.png"
     },
     {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_cast_on_light.png",
@@ -388,28 +388,28 @@
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_ic_menu_share_mtrl_alpha.png"
     },
     {
-        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_plus_signin_btn_icon_light_normal.9.png",
-        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_plus_signin_btn_icon_light_normal.9.png"
-    },
-    {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png",
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_plus_signin_btn_icon_light_normal.9.png",
+        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_plus_signin_btn_icon_light_normal.9.png"
     },
     {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png",
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_btn_radio_to_on_mtrl_000.png"
     },
     {
-        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_pause_light.png",
-        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-mdpi/ic_pause_light.png"
+        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png",
+        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png",
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png"
     },
     {
-        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png",
-        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_switch_track_mtrl_alpha.9.png"
+        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_pause_light.png",
+        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-mdpi/ic_pause_light.png"
     },
     {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_media_play.png",
@@ -428,20 +428,20 @@
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-mdpi/ic_cast_dark.png"
     },
     {
-        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_play_dark.png",
-        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-mdpi/ic_play_dark.png"
-    },
-    {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_plus_signin_btn_text_light_normal.9.png",
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/8.4.0/res/drawable-mdpi/common_plus_signin_btn_text_light_normal.9.png"
     },
     {
-        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png",
-        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png"
+        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_play_dark.png",
+        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-mdpi/ic_play_dark.png"
     },
     {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_star_half_black_36dp.png",
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png",
+        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_ic_voice_search_api_mtrl_alpha.png"
     },
     {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_plus_signin_btn_icon_light_focused.9.png",
@@ -452,24 +452,28 @@
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/res/drawable-mdpi/sok.png"
     },
     {
-        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/dislike.png",
-        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/res/drawable-mdpi/dislike.png"
+        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_notifications_white_24dp.png",
+        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.onesignal/OneSignal/2.6.2/res/drawable-mdpi-v4/ic_notifications_white_24dp.png"
     },
     {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_focused_holo.9.png",
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_list_focused_holo.9.png"
     },
     {
+        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/dislike.png",
+        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/res/drawable-mdpi/dislike.png"
+    },
+    {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/powered_by_google_light.png",
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/drawable-mdpi/powered_by_google_light.png"
     },
     {
-        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png",
-        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png"
-    },
-    {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/arrowdown.png",
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/res/drawable-mdpi/arrowdown.png"
+    },
+    {
+        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png",
+        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_list_pressed_holo_dark.9.png"
     },
     {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_google_signin_btn_text_dark_focused.9.png",
@@ -512,20 +516,20 @@
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_scrubber_track_mtrl_alpha.9.png"
     },
     {
-        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/clock.png",
-        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/res/drawable-mdpi/clock.png"
-    },
-    {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png",
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png"
     },
     {
-        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png",
-        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png"
+        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/clock.png",
+        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/res/drawable-mdpi/clock.png"
     },
     {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/ic_media_route_on_mono_dark.png",
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/res/drawable-mdpi/ic_media_route_on_mono_dark.png"
+    },
+    {
+        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png",
+        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/drawable-mdpi-v4/abc_ic_ab_back_mtrl_am_alpha.png"
     },
     {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/drawable-mdpi-v4/common_plus_signin_btn_text_dark_pressed.9.png",

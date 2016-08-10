@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <se.martenolsson.lah15.customViewPager.SlidingTabLayoutText
+        android:id="@+id/tabs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="0dp"
+        android:background="@color/theme_gray"/>
+
+    <se.martenolsson.lah15.customViewPager.CustomViewPagerScheme
+        android:id="@+id/pager"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:layout_weight="1">
+    </se.martenolsson.lah15.customViewPager.CustomViewPagerScheme>
+
+</LinearLayout>

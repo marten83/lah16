@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="se.martenolsson.lah16"
-    android:versionCode="13"
-    android:versionName="1.8.4" >
+    android:versionCode="15"
+    android:versionName="1.8.6" >
 
     <uses-sdk
         android:minSdkVersion="19"
@@ -27,15 +27,14 @@
         android:name="se.martenolsson.lah16.permission.C2D_MESSAGE"
         android:protectionLevel="signature" />
 
-    <uses-permission android:name="se.martenolsson.lah16.permission.C2D_MESSAGE" /> <!-- NOTE: See release version for tags with placeholders -->
-    <!-- START: ShortcutBadger -->
-    <!-- for Samsung -->
+    <uses-permission android:name="se.martenolsson.lah16.permission.C2D_MESSAGE" /> <!-- START: ShortcutBadger -->
+    <!-- Samsung -->
     <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
-    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- HTC -->
     <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
-    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
-    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" /> <!-- for apex -->
-    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- Sony -->
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" /> <!-- Apex -->
+    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- Solid -->
     <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" />
 
     <uses-feature
@@ -132,7 +131,21 @@
 
         <activity
             android:name="com.onesignal.PermissionsActivity"
-            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <service android:name="com.onesignal.NotificationRestoreService" />
+
+        <receiver android:name="com.onesignal.BootUpReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.onesignal.UpgradeReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+            </intent-filter>
+        </receiver> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"

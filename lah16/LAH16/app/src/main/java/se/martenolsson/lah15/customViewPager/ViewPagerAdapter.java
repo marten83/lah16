@@ -3,10 +3,7 @@ package se.martenolsson.lah15.customViewPager;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
-import se.martenolsson.lah15.Tab_Follow;
-import se.martenolsson.lah15.Tab_More;
-import se.martenolsson.lah15.Tab_News;
-import se.martenolsson.lah15.Tab_Start;
+import se.martenolsson.lah15.*;
 
 /**
  * Created by maroln on 15-08-19.
@@ -44,7 +41,7 @@ public class ViewPagerAdapter extends FragmentStatePagerAdapter {
             return tab;
         }
         else if(position == 3){
-            Tab_Follow tab = new Tab_Follow();
+            Tab_Scheme tab = new Tab_Scheme();
             return tab;
         }
         else{
