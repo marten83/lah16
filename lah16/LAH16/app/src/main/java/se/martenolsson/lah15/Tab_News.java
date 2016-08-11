@@ -81,7 +81,7 @@ public class Tab_News extends Fragment {
             try {
                 jsonObject = new JSONObject(tinydb.getString("news"));
             }catch (JSONException e) {e.printStackTrace();}
-            Log.e("test", String.valueOf(jsonObject));
+            //Log.e("test", String.valueOf(jsonObject));
             loadInList(jsonObject, true);
         }
         getJson("http://lah16.bastardcreative.se/api/news");
@@ -108,7 +108,7 @@ public class Tab_News extends Fragment {
                 item.setBody(body);
                 feedItemList.add(item);
 
-                Log.i("title", title);
+                //Log.i("title", title);
 
 
                 /*Save in Realm*/
@@ -126,7 +126,6 @@ public class Tab_News extends Fragment {
                 /*Save in Realm*/
 
             }
-            Log.e("ss","ss");
             adapter.notifyDataSetChanged();
             mSwipeRefreshLayout.setRefreshing(false);
 

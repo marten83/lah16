@@ -12,6 +12,11 @@ android {
         renderscriptSupportModeEnabled true
         multiDexEnabled true
 
+        dexOptions {
+            incremental true
+            javaMaxHeapSize "4g"
+        }
+
         android {
             defaultConfig {
                 manifestPlaceholders = [manifestApplicationId: "se.martenolsson.lah16",
@@ -55,6 +60,5 @@ dependencies {
     compile 'com.google.android.gms:play-services:8.4.0'
     compile 'com.google.android.gms:play-services-analytics:8.4.0'
     compile "com.google.android.gms:play-services-location:8.4.0"
-
 }
 apply plugin: 'realm-android'

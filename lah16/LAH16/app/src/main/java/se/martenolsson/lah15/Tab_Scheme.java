@@ -10,6 +10,8 @@ import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.FrameLayout;
+import android.widget.ProgressBar;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
@@ -39,8 +41,10 @@ public class Tab_Scheme extends Fragment {
     static Context mContext;
     RequestQueue queue;
     TinyDB tinydb;
+    FrameLayout progressHolder;
 
     CharSequence Titles[]={"Onsdag","Torsdag","Fredag","Lördag"};
+    String scheduleUrl = "http://lah16.bastardcreative.se/api/schedule";
 
     private List<SchemeItem> onsdag = new ArrayList<>();
     private List<SchemeItem> torsdag = new ArrayList<>();
@@ -59,6 +63,7 @@ public class Tab_Scheme extends Fragment {
         mContext = container.getContext();
         queue = Volley.newRequestQueue(mContext);
         tinydb = new TinyDB(mContext);
+        progressHolder = (FrameLayout) v.findViewById(R.id.progressHolder);
 
         // Assigning ViewPager View and setting the adapter
         pager = (ViewPager) v.findViewById(R.id.pager);
@@ -76,7 +81,7 @@ public class Tab_Scheme extends Fragment {
             }
         });
 
-        getJson("http://lah16.bastardcreative.se/api/schedule");
+        getJson(scheduleUrl);
 
         return v;
     }
@@ -100,17 +105,18 @@ public class Tab_Scheme extends Fragment {
                         }
                     }
                 }, new Response.ErrorListener() {
-            @Override
-            public void onErrorResponse(VolleyError error) {
-                //mSwipeRefreshLayout.setRefreshing(false);
-            }
-        });
+                    @Override
+                    public void onErrorResponse(VolleyError error) {
+                        getJson(scheduleUrl);
+                    }
+                }
+        );
         queue.add(stringRequest);
     }
 
     void sortToDay(JSONObject json){
         try {
-        JSONArray allmarkers = json.getJSONArray("payload");
+            JSONArray allmarkers = json.getJSONArray("payload");
             for (int i = 0; i < allmarkers.length(); i++) {
                 JSONObject c = allmarkers.getJSONObject(i);
 
@@ -145,6 +151,8 @@ public class Tab_Scheme extends Fragment {
         } catch (JSONException e) {
             e.printStackTrace();
         }
+
+        progressHolder.setVisibility(View.GONE);
     }
 
     static void sortStage(){

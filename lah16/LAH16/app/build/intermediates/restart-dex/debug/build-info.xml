@@ -4,40 +4,30 @@
     api-level="23"
     density="xxhdpi"
     format="7"
-    timestamp="1470839492798572000"
+    timestamp="1470899278142361000"
     token="-5924766091652174422" >
 
     <task
         name="javac"
-        duration="1531" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="28" />
+        duration="0" />
     <task
         name="verifier"
-        duration="5" />
+        duration="0" />
 
     <artifact
-        location="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
-        type="DEX" />
+        location="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/outputs/apk/app-debug.apk"
+        type="MAIN" />
 
-    <build timestamp="1470836571460443000" >
+    <build timestamp="1470899278142361000" >
         <artifact
             location="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />
-    </build>
-    <build timestamp="1470839046146761000" >
-        <artifact
-            location="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/resources-debug.ap_"
-            type="RESOURCES" />
-    </build>
-    <build timestamp="1470839492798572000" >
-        <artifact
-            location="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_3/classes.dex"
-            type="DEX" />
     </build>
 
 </instant-run>

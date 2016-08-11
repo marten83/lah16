@@ -1,10 +1,6 @@
 package se.martenolsson.lah15;
 
-import android.app.AlarmManager;
-import android.app.PendingIntent;
 import android.content.Context;
-import android.content.Intent;
-import android.graphics.Rect;
 import android.graphics.Typeface;
 import android.media.MediaPlayer;
 import android.os.Build;
@@ -14,7 +10,6 @@ import android.support.v4.app.Fragment;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.text.Editable;
 import android.text.TextWatcher;
-import android.util.Log;
 import android.view.*;
 import android.webkit.WebView;
 import android.widget.EditText;
@@ -33,10 +28,6 @@ import org.json.JSONObject;
 import se.martenolsson.lah15.classes.CleanTextString;
 import se.martenolsson.lah15.classes.TinyDB;
 import se.martenolsson.lah15.db.RealmArticle;
-
-import java.io.File;
-import java.io.UnsupportedEncodingException;
-import java.net.*;
 import java.util.*;
 
 /**
@@ -72,7 +63,6 @@ public class Tab_Start extends Fragment {
     private static final String TAG_MUSIK = "category";
     private static final String TAG_PLACE = "city";
     private static final String TAG_TEXT = "description";
-    private static final String TAG_MP3 = "songurl";
     private static final String TAG_IMAGE = "image_medium";
 
     static JSONArray allmarkers = null;
@@ -95,7 +85,6 @@ public class Tab_Start extends Fragment {
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
             WebView.setWebContentsDebuggingEnabled(true);
         }
-        Typeface geoSans = ((ApplicationController) mContext.getApplicationContext()).geoSans;
 
         list = (ListView) v.findViewById(R.id.listview);
 
@@ -119,7 +108,7 @@ public class Tab_Start extends Fragment {
             try {
                 jsonObject = new JSONArray(tinydb.getString("listofitems"));
             }catch (JSONException e) {e.printStackTrace();}
-            Log.e("test", String.valueOf(jsonObject));
+            //Log.e("test", String.valueOf(jsonObject));
             loadInList(jsonObject, true);
         }
         getJson("http://lah16.bastardcreative.se/api/artists");
@@ -164,12 +153,10 @@ public class Tab_Start extends Fragment {
             public void onFocusChange(View v, boolean hasFocus) {
                 if (hasFocus) {
                     searchHasFocus = true;
-                    //sok.setVisibility(View.GONE);
                     list.smoothScrollToPosition(0);
 
                 } else {
                     searchHasFocus = false;
-                    //sok.setVisibility(View.VISIBLE);
                 }
             }
         });
@@ -211,11 +198,7 @@ public class Tab_Start extends Fragment {
                     String musik = c.getString(TAG_MUSIK);
                     String place = c.getString(TAG_PLACE);
                     String text = c.getString(TAG_TEXT);
-                    //String mp3Str = c.getString(TAG_MP3).replace("https","http");
                     String mp3 = "http://martenolsson.se/lah16/songs/" + mId + ".mp3";
-                    //String mp3 = returnCleanString.returnCleanTextString(mp3Str);
-
-                    Log.e("mp3", mp3);
 
                     if (c.has(TAG_IMAGE)) {
                         if (!c.getString(TAG_IMAGE).equals("")) {
@@ -293,7 +276,6 @@ public class Tab_Start extends Fragment {
 
                             /*sort*/
                             JSONArray sortedByCat = sortJsonArray(allmarkers);
-                            //loadInList(sortedByCat, false);
                             tinydb.putString("listsorted", sortedByCat.toString());
                             /*sort*/
 
@@ -359,7 +341,7 @@ public class Tab_Start extends Fragment {
         editsearch.getText().clear();
     }
 
-    void isKeyBoardVisible(){
+    /*void isKeyBoardVisible(){
         ViewTreeObserver observer = v.getViewTreeObserver();
         observer.addOnGlobalLayoutListener(new ViewTreeObserver.OnGlobalLayoutListener() {
             @Override
@@ -385,5 +367,5 @@ public class Tab_Start extends Fragment {
         MainViewPager.tabs.setVisibility(View.VISIBLE);
         MainViewPager.tabBoarder.setVisibility(View.VISIBLE);
         MainViewPager.pager.setPadding(0, 0, 0, 55 * (int) density);
-    }
+    }*/
 }

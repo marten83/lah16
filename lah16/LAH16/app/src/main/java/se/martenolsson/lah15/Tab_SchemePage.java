@@ -55,7 +55,7 @@ public class Tab_SchemePage extends Fragment {
         stageSort =  ((ApplicationController) mContext.getApplicationContext()).currentStageSort;
 
         dayScheme = new JsonParser().parse(scheme).getAsJsonArray();
-        Log.i("dayScheme", String.valueOf(dayScheme));
+        //Log.i("dayScheme", String.valueOf(dayScheme));
 
         /* Initialize recyclerview */
         mRecyclerView = (RecyclerView) v.findViewById(R.id.recycler_view);
@@ -87,9 +87,9 @@ public class Tab_SchemePage extends Fragment {
             feedItemList.add(item);
         }
 
-        for (int i = 0; i < feedItemList.size(); i++) {
+        /*for (int i = 0; i < feedItemList.size(); i++) {
             Log.i("sort", feedItemList.get(i).getDate());
-        }
+        }*/
 
         adapter = new SchemeRecyclerAdapter(getActivity(), feedItemList);
         mRecyclerView.setAdapter(adapter);

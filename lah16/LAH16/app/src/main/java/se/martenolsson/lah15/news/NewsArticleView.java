@@ -33,6 +33,7 @@ public class NewsArticleView extends SwipeBackActivity implements ObservableScro
     ImageView imageView;
     int screenWidth;
     LinearLayout closeBtn;
+    FrameLayout imageHolder;
 
     @Override
     public void onBackPressed(){
@@ -68,6 +69,7 @@ public class NewsArticleView extends SwipeBackActivity implements ObservableScro
         TextView titleView = (TextView) findViewById(R.id.title);
         TextView bodyView = (TextView) findViewById(R.id.body);
         imageView = (ImageView) findViewById(R.id.thumbnail);
+        imageHolder = (FrameLayout) findViewById(R.id.imageHolder);
 
         FrameLayout.LayoutParams topImgHeight = new FrameLayout.LayoutParams(FrameLayout.LayoutParams.MATCH_PARENT, (int) (screenWidth * 0.5625));
         imageView.setLayoutParams(topImgHeight);
@@ -83,11 +85,13 @@ public class NewsArticleView extends SwipeBackActivity implements ObservableScro
                 if (article.has("title")) {
                     titleView.setText(article.getString("title"));
                 }
-                if (article.has("image")) {
+                if (article.has("image") && !article.getString("image").equals("")) {
                     Glide.with(getApplicationContext())
                             .load(article.getString("image"))
                             .asBitmap()
                             .into(imageView);
+                }else{
+                    imageHolder.setVisibility(View.GONE);
                 }
                 if (article.has("body")) {
                     ReturnSpannableString returnSpan = new ReturnSpannableString();
