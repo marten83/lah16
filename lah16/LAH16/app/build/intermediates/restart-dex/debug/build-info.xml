@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
-    abi="armeabi-v7a,armeabi"
+    abi="arm64-v8a,armeabi-v7a,armeabi"
     api-level="23"
-    density="xxhdpi"
+    density="xxxhdpi"
     format="7"
-    timestamp="1470899278142361000"
+    timestamp="1471334451934718000"
     token="-5924766091652174422" >
 
     <task
@@ -24,7 +24,7 @@
         location="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/outputs/apk/app-debug.apk"
         type="MAIN" />
 
-    <build timestamp="1470899278142361000" >
+    <build timestamp="1471334451934718000" >
         <artifact
             location="/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/outputs/apk/app-debug.apk"
             type="MAIN" />

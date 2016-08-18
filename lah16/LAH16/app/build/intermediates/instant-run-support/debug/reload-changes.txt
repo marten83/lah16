@@ -1,3 +1,0 @@
-CHANGED,/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/se/martenolsson/lah15/news/NewsArticleView$override.class
-CHANGED,/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/se/martenolsson/lah15/news/NewsArticleView$1$override.class
-CHANGED,/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class

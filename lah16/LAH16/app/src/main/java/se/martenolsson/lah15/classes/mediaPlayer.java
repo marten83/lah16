@@ -24,6 +24,7 @@ public class mediaPlayer {
     String mediaUrl;
     Boolean fromPlayBtn;
     Boolean fromSingle;
+    Boolean fromStart;
     LinearLayout vanta;
     LinearLayout stopBtn;
     LinearLayout playBtn;
@@ -31,7 +32,7 @@ public class mediaPlayer {
     Context mContext;
     Boolean isError = false;
 
-    public mediaPlayer(Context mContext, String artist, String mp3, final Boolean fromPlayBtn, final LinearLayout vanta, final LinearLayout stopBtn, final LinearLayout playBtn, final Boolean fromSingle) {
+    public mediaPlayer(Context mContext, String artist, String mp3, final Boolean fromPlayBtn, final LinearLayout vanta, final LinearLayout stopBtn, final LinearLayout playBtn, final Boolean fromSingle, final Boolean fromStart) {
         myMediaPlayer = ((ApplicationController) mContext.getApplicationContext()).myMediaPlayer;
         tinydb = new TinyDB(mContext);
         this.mContext = mContext;
@@ -42,6 +43,7 @@ public class mediaPlayer {
 
         this.fromPlayBtn = fromPlayBtn;
         this.fromSingle = fromSingle;
+        this.fromStart = fromStart;
         this.vanta = vanta;
         this.stopBtn = stopBtn;
         this.playBtn = playBtn;
@@ -177,11 +179,12 @@ public class mediaPlayer {
                         vanta.setVisibility(View.GONE);
                     }
                     Toast.makeText(mContext, "Kan inte spela låten", Toast.LENGTH_LONG).show();
-
-                    if(!fromSingle || !fromPlayBtn) {
-                        mediaUrl = "http://martenolsson.se/lah15/errorimg/error.mp3";
-                        isError = true;
-                        playSong();
+                    if (!fromSingle && !fromStart) {
+                        if (!fromSingle || !fromPlayBtn) {
+                            mediaUrl = "http://martenolsson.se/lah15/errorimg/error.mp3";
+                            isError = true;
+                            playSong();
+                        }
                     }
                 }
                 return false;

@@ -10,5 +10,4 @@ public class RealmArticle extends RealmObject {
     @PrimaryKey
     public String id;
     public String json;
-
 }

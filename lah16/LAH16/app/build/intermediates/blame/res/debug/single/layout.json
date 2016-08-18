@@ -68,6 +68,10 @@
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/res/layout/select_dialog_item_material.xml"
     },
     {
+        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/layout/single_schemeview_item.xml",
+        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/res/layout/single_schemeview_item.xml"
+    },
+    {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/layout/design_navigation_item_subheader.xml",
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/design/23.4.0/res/layout/design_navigation_item_subheader.xml"
     },
@@ -130,6 +134,10 @@
     {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/layout/place_autocomplete_fragment.xml",
         "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/8.4.0/res/layout/place_autocomplete_fragment.xml"
+    },
+    {
+        "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/layout/video_progress.xml",
+        "source": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/res/layout/video_progress.xml"
     },
     {
         "merged": "/Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/res/merged/debug/layout/design_navigation_menu_item.xml",

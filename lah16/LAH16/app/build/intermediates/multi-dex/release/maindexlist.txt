@@ -57,6 +57,7 @@ com/google/android/gms/analytics/internal/zzae.class
 com/google/android/gms/internal/zzef.class
 android/support/design/widget/ThemeUtils.class
 android/support/v4/media/MediaBrowserCompat$ItemReceiver.class
+se/martenolsson/lah15/SingleItemView$3.class
 com/google/android/gms/wearable/NodeApi$zza.class
 android/support/design/widget/BottomSheetBehavior$SettleRunnable.class
 com/google/android/gms/ads/internal/reward/client/zzi.class
@@ -156,6 +157,7 @@ com/google/android/gms/internal/zzhb.class
 com/google/android/gms/internal/zzaz.class
 com/google/android/gms/internal/zzfj.class
 com/google/android/gms/internal/zzeo.class
+se/martenolsson/lah15/SingleItemView$DateComparator.class
 android/support/v4/view/ViewCompat$Api24ViewCompatImpl.class
 com/google/android/gms/ads/internal/client/AdSizeParcel.class
 com/google/android/gms/internal/zzne.class
@@ -178,6 +180,7 @@ com/google/android/gms/internal/zzfr.class
 android/support/v4/view/ViewCompat$ICSViewCompatImpl.class
 se/martenolsson/lah15/playListView$3.class
 com/google/android/gms/games/leaderboard/LeaderboardScore.class
+com/google/gson/JsonObject.class
 com/google/android/gms/wearable/ChannelApi$OpenChannelResult.class
 com/google/ads/AdSize.class
 com/google/android/gms/location/places/PlaceFilter$zza.class
@@ -189,8 +192,8 @@ android/support/v4/widget/DrawerLayout.class
 com/google/android/gms/common/api/Status.class
 com/google/gson/annotations/JsonAdapter.class
 com/google/android/gms/internal/zzer.class
-com/google/android/gms/internal/zzes.class
 android/support/v4/widget/MaterialProgressDrawable$ProgressDrawableSize.class
+com/google/android/gms/internal/zzes.class
 com/google/ads/mediation/MediationBannerAdapter.class
 android/support/v4/app/ActivityCompatHoneycomb.class
 com/google/android/gms/ads/internal/request/zze.class
@@ -273,9 +276,9 @@ com/google/android/gms/internal/zzcv.class
 android/support/v4/media/MediaBrowserCompat$ServiceBinderWrapper.class
 android/support/v8/renderscript/Script$KernelID.class
 com/google/android/gms/ads/internal/reward/client/RewardedVideoAdRequestParcel.class
-com/google/android/gms/internal/zzfi.class
 android/support/v7/appcompat/R$style.class
 android/support/v7/recyclerview/R.class
+com/google/android/gms/internal/zzfi.class
 com/google/android/gms/location/places/internal/PlaceImpl.class
 android/support/v4/app/FragmentManagerImpl$FragmentTag.class
 se/martenolsson/lah15/classes/Foreground.class
@@ -339,8 +342,9 @@ com/google/android/gms/internal/zziv.class
 com/google/android/gms/common/internal/zzx.class
 com/google/android/gms/internal/zzrp.class
 android/support/v7/widget/OpReorderer$Callback.class
-com/google/android/gms/internal/zzbf$zza.class
+com/google/gson/JsonElement.class
 com/onesignal/NotificationExtenderService$OverrideSettings.class
+com/google/android/gms/internal/zzbf$zza.class
 com/google/android/gms/maps/MapFragment.class
 android/support/annotation/DrawableRes.class
 android/support/v4/app/BackStackState.class
@@ -517,6 +521,7 @@ com/google/android/gms/auth/api/signin/GoogleSignInAccount.class
 android/support/v4/view/ViewCompat$HCViewCompatImpl.class
 android/support/v4/media/VolumeProviderCompatApi21.class
 android/support/design/widget/CoordinatorLayoutInsetsHelper.class
+com/google/gson/JsonArray.class
 android/support/v4/media/MediaMetadataCompat$RatingKey.class
 me/imid/swipebacklayout/lib/app/SwipeBackActivityBase.class
 com/google/android/gms/internal/zzjk.class
@@ -574,8 +579,8 @@ com/google/android/gms/internal/zzgl.class
 io/realm/annotations/RealmClass.class
 com/google/android/gms/internal/zzbr.class
 android/support/design/widget/Snackbar$Callback.class
-android/support/v4/view/ViewCompatEclairMr1.class
 android/support/v4/media/MediaDescriptionCompat$Builder.class
+android/support/v4/view/ViewCompatEclairMr1.class
 com/onesignal/NotificationExtenderService.class
 com/google/android/gms/analytics/ecommerce/ProductAction.class
 com/google/android/gms/nearby/sharing/SharedContent.class
@@ -678,6 +683,7 @@ se/martenolsson/lah15/WorldPopulation.class
 com/google/android/gms/ads/internal/request/zzb.class
 android/support/design/widget/TabLayout$TabLayoutOnPageChangeListener.class
 android/support/annotation/NonNull.class
+se/martenolsson/lah15/SingleItemView$2.class
 com/google/android/gms/ads/internal/overlay/zzd$zzb.class
 android/support/design/widget/FloatingActionButton.class
 com/bumptech/glide/GlideBuilder.class
@@ -760,8 +766,8 @@ io/realm/annotations/Index.class
 com/github/florent37/glidepalette/GlidePalette.class
 io/realm/RealmModel.class
 com/google/android/gms/internal/zzbd.class
-android/support/v7/widget/RecyclerView$ItemAnimator.class
 android/support/design/widget/AppBarLayout$LayoutParams.class
+android/support/v7/widget/RecyclerView$ItemAnimator.class
 com/google/android/gms/internal/zzfk.class
 com/google/android/gms/location/places/internal/PlaceLocalization.class
 android/support/v7/app/ActionBarDrawerToggle$DelegateProvider.class
@@ -925,6 +931,7 @@ com/google/android/gms/common/GoogleApiAvailability.class
 android/support/v4/view/ViewCompat$GBViewCompatImpl.class
 io/realm/RealmObject.class
 com/google/android/gms/common/api/CommonStatusCodes.class
+se/martenolsson/lah15/SingleItemView$myWebChromeClient.class
 android/support/v4/view/ScrollingView.class
 android/support/v7/widget/RecyclerView$RecyclerListener.class
 com/google/android/gms/ads/internal/purchase/zzg.class
@@ -1016,8 +1023,8 @@ com/google/android/gms/games/quest/Quest.class
 android/support/v4/widget/SwipeRefreshLayout.class
 android/support/v7/widget/RecyclerView$RecycledViewPool.class
 io/realm/DefaultRealmModule.class
-com/bumptech/glide/request/target/Target.class
 android/support/v4/view/ViewCompat$FocusDirection.class
+com/bumptech/glide/request/target/Target.class
 com/google/android/gms/internal/zzbh.class
 com/bumptech/glide/load/model/stream/StreamByteArrayLoader.class
 com/google/android/gms/appinvite/PreviewActivity$1.class
@@ -1037,6 +1044,7 @@ com/google/android/gms/internal/zzfh.class
 android/support/v7/widget/RecyclerView$ChildDrawingOrderCallback.class
 com/google/android/gms/internal/zzbk.class
 com/google/android/gms/clearcut/zzb.class
+com/google/gson/JsonParser.class
 android/support/v4/media/MediaBrowserCompat$ItemCallback.class
 com/google/android/gms/internal/zzdp.class
 com/google/android/gms/internal/zzaw.class

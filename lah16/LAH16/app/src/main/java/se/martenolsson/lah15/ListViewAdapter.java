@@ -176,7 +176,7 @@ public class ListViewAdapter extends BaseAdapter {
 
         View.OnClickListener play = new View.OnClickListener() {
             public void onClick(View view) {
-                new mediaPlayer(mContext, worldpopulationlist.get(position).getTitle(), worldpopulationlist.get(position).getMp3(), true, null, null, null, false);
+                new mediaPlayer(mContext, worldpopulationlist.get(position).getTitle(), worldpopulationlist.get(position).getMp3(), true, null, null, null, false, true);
                 SwipeLayout swipeTag = (SwipeLayout) view.getTag();
 
                 playBtn.setVisibility(View.VISIBLE);

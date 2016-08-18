@@ -1,6 +1,7 @@
 package se.martenolsson.lah15;
 
 import android.app.AlertDialog;
+import android.app.ProgressDialog;
 import android.content.Context;
 import android.content.DialogInterface;
 import android.content.Intent;
@@ -206,7 +207,7 @@ public class playListView extends SwipeBackActivity {
                     String[] listitem = playList.get(index).split(";;");
                     String txtArtist = listitem[0];
                     String mp3 = listitem[1];
-                    new mediaPlayer(mContext, txtArtist, mp3, false, null, null, null, false);
+                    new mediaPlayer(mContext, txtArtist, mp3, false, null, null, null, false, false);
 
                     playBtn.setText(Html.fromHtml("&#xf1f9;"));
                     notifyDataSetChanged();

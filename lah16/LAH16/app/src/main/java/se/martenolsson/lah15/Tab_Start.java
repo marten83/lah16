@@ -20,14 +20,14 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.Volley;
-import io.realm.Realm;
-import io.realm.RealmConfiguration;
+import io.realm.*;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import se.martenolsson.lah15.classes.CleanTextString;
 import se.martenolsson.lah15.classes.TinyDB;
 import se.martenolsson.lah15.db.RealmArticle;
+
 import java.util.*;
 
 /**
@@ -185,6 +185,7 @@ public class Tab_Start extends Fragment {
 
         return v;
     }
+
     static void loadInList(final JSONArray json, Boolean fromSaved){
         try {
             arraylist.clear();

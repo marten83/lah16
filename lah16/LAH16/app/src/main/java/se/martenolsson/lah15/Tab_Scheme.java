@@ -6,12 +6,10 @@ import android.support.annotation.Nullable;
 import android.support.v4.app.Fragment;
 import android.support.v4.content.ContextCompat;
 import android.support.v4.view.ViewPager;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
-import android.widget.ProgressBar;
 import com.android.volley.RequestQueue;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
@@ -20,12 +18,15 @@ import com.android.volley.toolbox.Volley;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonArray;
+import io.realm.Realm;
+import io.realm.RealmConfiguration;
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 import se.martenolsson.lah15.classes.TinyDB;
 import se.martenolsson.lah15.customViewPager.SlidingTabLayoutText;
 import se.martenolsson.lah15.customViewPager.ViewPagerAdapterScheme;
+import se.martenolsson.lah15.db.RealmArticle;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -69,6 +70,7 @@ public class Tab_Scheme extends Fragment {
         pager = (ViewPager) v.findViewById(R.id.pager);
         pager.setOffscreenPageLimit(4);
 
+
         // Assiging the Sliding Tab Layout View
         tabs = (SlidingTabLayoutText) v.findViewById(R.id.tabs);
         tabs.setDistributeEvenly(true); // To make the Tabs Fixed set this true, This makes the tabs Space Evenly in Available width
@@ -102,6 +104,7 @@ public class Tab_Scheme extends Fragment {
                     public void onResponse(JSONObject json) {
                         if(json != null) {
                             sortToDay(json);
+                            tinydb.putString("schedule", String.valueOf(json));
                         }
                     }
                 }, new Response.ErrorListener() {
@@ -114,9 +117,9 @@ public class Tab_Scheme extends Fragment {
         queue.add(stringRequest);
     }
 
-    void sortToDay(JSONObject json){
+    void sortToDay(final JSONObject json){
         try {
-            JSONArray allmarkers = json.getJSONArray("payload");
+            final JSONArray allmarkers = json.getJSONArray("payload");
             for (int i = 0; i < allmarkers.length(); i++) {
                 JSONObject c = allmarkers.getJSONObject(i);
 
@@ -136,7 +139,6 @@ public class Tab_Scheme extends Fragment {
                 }else{
                     lordag.add(item);
                 }
-
             }
 
             Gson gson = new GsonBuilder().create();

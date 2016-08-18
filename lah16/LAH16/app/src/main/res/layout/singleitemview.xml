@@ -135,19 +135,49 @@
                 android:gravity="center_vertical"
                 android:layout_marginBottom="5dp"/>
 
-            <TextView
-                android:layout_below="@+id/arrowdown"
-                android:id="@+id/text"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:padding="15dp"
-                android:textSize="16dp"
-                android:fontFamily="sans-serif"
-                android:text="Test"
-                android:textColor="#FFFFFF"
-                android:background="#000000"
-                android:autoLink="web"/>
 
+            <LinearLayout
+                android:id="@+id/textWrapper"
+                android:background="#000000"
+                android:layout_below="@+id/arrowdown"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:paddingTop="7.5dp"
+                android:paddingBottom="7.5dp">
+
+                <LinearLayout
+                    android:id="@+id/scheduleWrapper"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"/>
+
+                <LinearLayout
+                    android:id="@+id/border"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="#80ffffff"
+                    android:layout_marginTop="7.5dp"
+                    android:orientation="vertical"/>
+
+                <TextView
+                    android:id="@+id/text"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="15dp"
+                    android:textSize="16dp"
+                    android:fontFamily="sans-serif"
+                    android:text="Test"
+                    android:textColor="#FFFFFF"
+                    android:autoLink="web"/>
+
+                <LinearLayout
+                    android:id="@+id/youtubeHolder"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"/>
+
+            </LinearLayout>
 
             <LinearLayout
                 android:layout_below="@+id/place"
@@ -346,6 +376,13 @@
         </RelativeLayout>
 
     </se.martenolsson.lah15.classes.ObservableScrollView>
+
+    <FrameLayout
+        android:id="@+id/customViewContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#000000"
+        android:visibility="gone"/>
 
     <!--LinearLayout
         android:id="@+id/closeBtn"

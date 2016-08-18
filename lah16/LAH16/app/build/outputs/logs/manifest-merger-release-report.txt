@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:1:1-98:12
+ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:1:1-99:12
 	xmlns:android
 		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:1:11-69
 	package
@@ -86,7 +86,7 @@ ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/
 	android:name
 		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:16:22-60
 application
-ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:18:5-96:19
+ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:18:5-97:19
 MERGED from [com.android.support:appcompat-v7:23.4.0] /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.4.0/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:animated-vector-drawable:23.4.0] /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.4.0/AndroidManifest.xml:7:5-20
 MERGED from [com.android.support:support-vector-drawable:23.4.0] /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.4.0/AndroidManifest.xml:7:5-20
@@ -258,81 +258,83 @@ ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/
 	android:name
 		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:37:27-74
 activity#se.martenolsson.lah15.SingleItemView
-ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:42:9-47:20
+ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:42:9-48:20
 	android:screenOrientation
 		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:44:13-49
+	android:configChanges
+		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:46:13-74
 	android:theme
-		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:46:13-49
+		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:47:13-49
 	android:hardwareAccelerated
 		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:45:13-47
 	android:name
-		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:43:13-64
+		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:43:13-43
 activity#se.martenolsson.lah15.news.NewsArticleView
-ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:49:9-54:20
+ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:50:9-55:20
 	android:screenOrientation
+		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:52:13-49
+	android:theme
+		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:54:13-49
+	android:hardwareAccelerated
+		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:53:13-47
+	android:name
 		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:51:13-49
-	android:theme
-		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:53:13-49
-	android:hardwareAccelerated
-		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:52:13-47
-	android:name
-		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:50:13-49
 activity#se.martenolsson.lah15.FollowView
-ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:56:9-63:20
+ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:57:9-64:20
 	android:screenOrientation
-		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:59:13-49
+		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:60:13-49
 	android:label
-		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:58:13-47
+		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:59:13-47
 	android:theme
-		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:61:13-49
+		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:62:13-49
 	android:hardwareAccelerated
-		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:60:13-47
+		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:61:13-47
 	android:name
-		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:57:13-60
+		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:58:13-60
 activity#se.martenolsson.lah15.chemeView
-ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:65:9-72:20
+ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:66:9-73:20
 	android:screenOrientation
-		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:68:13-49
+		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:69:13-49
 	android:label
-		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:67:13-39
+		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:68:13-39
 	android:theme
-		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:70:13-49
+		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:71:13-49
 	android:hardwareAccelerated
-		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:69:13-47
+		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:70:13-47
 	android:name
-		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:66:13-38
+		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:67:13-38
 activity#se.martenolsson.lah15.playListView
-ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:74:9-81:20
+ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:75:9-82:20
 	android:screenOrientation
-		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:77:13-49
+		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:78:13-49
 	android:label
-		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:76:13-39
+		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:77:13-39
 	android:theme
-		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:79:13-49
+		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:80:13-49
 	android:hardwareAccelerated
-		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:78:13-47
+		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:79:13-47
 	android:name
-		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:75:13-41
+		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:76:13-41
 activity#se.martenolsson.lah15.AboutView
-ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:83:9-89:20
+ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:84:9-90:20
 	android:screenOrientation
-		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:86:13-49
+		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:87:13-49
 	android:label
-		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:85:13-37
+		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:86:13-37
 	android:hardwareAccelerated
-		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:87:13-47
+		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:88:13-47
 	android:name
-		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:84:13-38
+		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:85:13-38
 activity#se.martenolsson.lah15.classes.NotificationReturnSlot
-ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:91:9-94:48
+ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:92:9-95:48
 	android:excludeFromRecents
-		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:94:13-46
+		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:95:13-46
 	android:taskAffinity
-		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:93:13-36
+		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:94:13-36
 	android:name
-		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:91:19-65
+		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:92:19-65
 	android:launchMode
-		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:92:13-44
+		ADDED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml:93:13-44
 uses-sdk
 INJECTED from /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:multidex:1.0.1] /Users/martenolsson/Documents/Mårten/LAH16/lah16/LAH16/app/build/intermediates/exploded-aar/com.android.support/multidex/1.0.1/AndroidManifest.xml:18:5-42
