@@ -5,6 +5,7 @@ import android.graphics.Typeface;
 import android.media.AudioManager;
 import android.media.MediaPlayer;
 
+import android.renderscript.Type;
 import com.onesignal.OneSignal;
 import se.martenolsson.lah15.classes.Foreground;
 import se.martenolsson.lah15.classes.TinyDB;
@@ -16,6 +17,7 @@ public class ApplicationController extends Application {
     public Typeface geoSansBold;
     public Typeface caviar;
     public Typeface icons;
+    public Typeface simpleLineIcons;
     public MediaPlayer myMediaPlayer;
     public String currentSong = null;
     public String currentArtist = null;
@@ -31,7 +33,7 @@ public class ApplicationController extends Application {
         myMediaPlayer = new MediaPlayer();
         myMediaPlayer.setAudioStreamType(AudioManager.STREAM_MUSIC);
 
-		geoSans = Typeface.createFromAsset(this.getAssets(), "Cabin-Bold.ttf");
+        geoSans = Typeface.createFromAsset(this.getAssets(), "Cabin-Bold.ttf");
         geoSansBold = Typeface.createFromAsset(this.getAssets(), "Cabin-Bold.ttf");
         caviar = Typeface.createFromAsset(this.getAssets(), "lane.ttf");
         icons = Typeface.createFromAsset(this.getAssets(), "Flaticon.ttf");
