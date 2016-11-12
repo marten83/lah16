@@ -1,5 +1,7 @@
 package se.martenolsson.lah15;
 
+import android.content.ClipData;
+import android.content.ClipboardManager;
 import android.content.Context;
 import android.graphics.Typeface;
 import android.media.MediaPlayer;
@@ -10,6 +12,7 @@ import android.support.v4.app.Fragment;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.text.Editable;
 import android.text.TextWatcher;
+import android.util.Log;
 import android.view.*;
 import android.webkit.WebView;
 import android.widget.EditText;
@@ -94,7 +97,7 @@ public class Tab_Start extends Fragment {
         mSwipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
-                getJson("http://lah16.bastardcreative.se/api/artists");
+                getJson("http://martenolsson.se/lah16/artists/artists.json");
             }
         });
 
@@ -102,6 +105,24 @@ public class Tab_Start extends Fragment {
         RealmConfiguration realmConfig = new RealmConfiguration.Builder(mContext).build();
         Realm.setDefaultConfiguration(realmConfig);
         realm = Realm.getDefaultInstance();
+
+        /*String sb = tinydb.getString("listofitems");
+        String TAG = "sadsds";
+        if (sb.length() > 4000) {
+            Log.v(TAG, "sb.length = " + sb.length());
+            int chunkCount = sb.length() / 4000;     // integer division
+            for (int i = 0; i <= chunkCount; i++) {
+                int max = 4000 * (i + 1);
+                if (max >= sb.length()) {
+                    Log.v(TAG, sb.substring(4000 * i));
+                } else {
+                    Log.v(TAG, sb.substring(4000 * i, max));
+                }
+            }
+        } else {
+            Log.v(TAG, sb.toString());
+        }*/
+
 
         if(!tinydb.getString("listofitems").isEmpty() && tinydb.getString("listofitems") != null){
             JSONArray jsonObject = null;
@@ -111,7 +132,7 @@ public class Tab_Start extends Fragment {
             //Log.e("test", String.valueOf(jsonObject));
             loadInList(jsonObject, true);
         }
-        getJson("http://lah16.bastardcreative.se/api/artists");
+        getJson("http://martenolsson.se/lah16/artists/artists.json");
 
         /*File cacheDir = mContext.getCacheDir();
         File tab1 = new File(cacheDir, "tab1.html");
@@ -194,22 +215,13 @@ public class Tab_Start extends Fragment {
                 for (int i = 0; i < json.length(); i++) {
                     JSONObject c = json.getJSONObject(i);
                     String mId = c.getString(TAG_ID);
-                    String image = "null";
+                    String image = "http://martenolsson.se/lah16/images/" + mId + ".jpg";
                     String title = c.getString(TAG_TITLE).toUpperCase();
                     String musik = c.getString(TAG_MUSIK);
                     String place = c.getString(TAG_PLACE);
                     String text = c.getString(TAG_TEXT);
                     String mp3 = "http://martenolsson.se/lah16/songs/" + mId + ".mp3";
 
-                    if (c.has(TAG_IMAGE)) {
-                        if (!c.getString(TAG_IMAGE).equals("")) {
-                            image = c.getString(TAG_IMAGE);
-                        } else if (c.has("image")) {
-                            image = c.getString("image");
-                        }
-                    } else if (c.has("image")) {
-                        image = c.getString("image");
-                    }
 
                     WorldPopulation wp = new WorldPopulation(mId, title, musik, text, place, mp3, image);
                     arraylist.add(wp);

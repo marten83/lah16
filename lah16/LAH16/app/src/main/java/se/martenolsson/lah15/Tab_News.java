@@ -1,5 +1,6 @@
 package se.martenolsson.lah15;
 
+import android.content.ClipboardManager;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -59,6 +60,7 @@ public class Tab_News extends Fragment {
         Realm.setDefaultConfiguration(realmConfig);
         realm = Realm.getDefaultInstance();
 
+
         mRecyclerView = (RecyclerView) v.findViewById(R.id.recycler_view);
         mRecyclerView.hasFixedSize();
         mRecyclerView.setHasFixedSize(true);
@@ -72,7 +74,7 @@ public class Tab_News extends Fragment {
         mSwipeRefreshLayout.setOnRefreshListener(new SwipeRefreshLayout.OnRefreshListener() {
             @Override
             public void onRefresh() {
-                getJson("http://lah16.bastardcreative.se/api/news");
+                getJson("http://martenolsson.se/lah16/news/news.json");
             }
         });
 
@@ -84,7 +86,7 @@ public class Tab_News extends Fragment {
             //Log.e("test", String.valueOf(jsonObject));
             loadInList(jsonObject, true);
         }
-        getJson("http://lah16.bastardcreative.se/api/news");
+        getJson("http://martenolsson.se/lah16/news/news.json");
 
         return v;
     }
@@ -97,7 +99,7 @@ public class Tab_News extends Fragment {
                 JSONObject article = allItems.getJSONObject(i);
 
                 String mId = article.getString("mid");
-                String image = article.getString("image");
+                String image = "http://martenolsson.se/lah16/news/" + mId + ".jpg";
                 String title = article.getString("title");
                 String body = article.getString("body");
 

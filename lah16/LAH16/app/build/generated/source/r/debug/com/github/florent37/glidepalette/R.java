@@ -8,6 +8,6 @@ package com.github.florent37.glidepalette;
 
 public final class R {
 	public static final class string {
-		public static final int app_name = 0x7f060040;
+		public static final int app_name = 0x7f06004d;
 	}
 }

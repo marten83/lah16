@@ -9,32 +9,32 @@ package me.imid.swipebacklayout.lib;
 public final class R {
 	public static final class attr {
 		public static final int SwipeBackLayoutStyle = 0x7f010000;
-		public static final int edge_flag = 0x7f01010c;
-		public static final int edge_size = 0x7f01010b;
-		public static final int shadow_bottom = 0x7f01010f;
-		public static final int shadow_left = 0x7f01010d;
-		public static final int shadow_right = 0x7f01010e;
+		public static final int edge_flag = 0x7f01011e;
+		public static final int edge_size = 0x7f01011d;
+		public static final int shadow_bottom = 0x7f010121;
+		public static final int shadow_left = 0x7f01011f;
+		public static final int shadow_right = 0x7f010120;
 	}
 	public static final class drawable {
-		public static final int shadow_bottom = 0x7f0200cb;
-		public static final int shadow_left = 0x7f0200cc;
-		public static final int shadow_right = 0x7f0200cd;
+		public static final int shadow_bottom = 0x7f0200d2;
+		public static final int shadow_left = 0x7f0200d3;
+		public static final int shadow_right = 0x7f0200d4;
 	}
 	public static final class id {
-		public static final int all = 0x7f0c0045;
-		public static final int bottom = 0x7f0c001e;
-		public static final int left = 0x7f0c0024;
-		public static final int right = 0x7f0c0025;
-		public static final int swipe = 0x7f0c00a9;
+		public static final int all = 0x7f0c0033;
+		public static final int bottom = 0x7f0c0023;
+		public static final int left = 0x7f0c0029;
+		public static final int right = 0x7f0c002a;
+		public static final int swipe = 0x7f0c00ac;
 	}
 	public static final class layout {
-		public static final int swipeback_layout = 0x7f03004b;
+		public static final int swipeback_layout = 0x7f03004d;
 	}
 	public static final class style {
-		public static final int SwipeBackLayout = 0x7f0900c8;
+		public static final int SwipeBackLayout = 0x7f0800d2;
 	}
 	public static final class styleable {
-		public static final int[] SwipeBackLayout = { 0x7f01010b, 0x7f01010c, 0x7f01010d, 0x7f01010e, 0x7f01010f };
+		public static final int[] SwipeBackLayout = { 0x7f01011d, 0x7f01011e, 0x7f01011f, 0x7f010120, 0x7f010121 };
 		public static final int SwipeBackLayout_edge_flag = 1;
 		public static final int SwipeBackLayout_edge_size = 0;
 		public static final int SwipeBackLayout_shadow_bottom = 4;

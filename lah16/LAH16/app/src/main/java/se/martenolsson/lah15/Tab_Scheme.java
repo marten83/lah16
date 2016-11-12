@@ -1,5 +1,6 @@
 package se.martenolsson.lah15;
 
+import android.content.ClipboardManager;
 import android.content.Context;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
@@ -45,7 +46,7 @@ public class Tab_Scheme extends Fragment {
     FrameLayout progressHolder;
 
     CharSequence Titles[]={"Onsdag","Torsdag","Fredag","Lördag"};
-    String scheduleUrl = "http://lah16.bastardcreative.se/api/schedule";
+    String scheduleUrl = "http://martenolsson.se/lah16/schedule/schedule.json";
 
     private List<SchemeItem> onsdag = new ArrayList<>();
     private List<SchemeItem> torsdag = new ArrayList<>();
